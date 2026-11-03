@@ -217,7 +217,7 @@ def marcar_neutralizadas(tabla, periodos):
     return tabla
 
 
-def descargar_todo(anios_carrera=(2022, 2023, 2024, 2025), anios_sc=(2021, 2022, 2023, 2024)):
+def descargar_todo(anios_carrera=(2021, 2022, 2023, 2024, 2025), anios_sc=(2021, 2022, 2023, 2024)):
     PROCESADOS.mkdir(parents=True, exist_ok=True)
     todas_vueltas, todos_periodos, todos_resultados, todas_qualy, todas_paradas = [], [], [], [], []
     for anio in sorted(set(anios_carrera) | set(anios_sc)):

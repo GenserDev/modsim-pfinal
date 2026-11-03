@@ -1,4 +1,24 @@
 anio,numero,piloto,posicion,vueltas,estado,tiempo_total_s
+2021,44,HAM,1,66,Finished,5587.68
+2021,33,VER,2,66,Finished,5603.521
+2021,77,BOT,3,66,Finished,5614.29
+2021,16,LEC,4,66,Finished,5642.296
+2021,11,PER,5,66,Finished,5651.351
+2021,3,RIC,6,66,Finished,5661.448
+2021,55,SAI,7,66,Finished,5662.35
+2021,4,NOR,8,65,+1 Lap,
+2021,31,OCO,9,65,+1 Lap,
+2021,10,GAS,10,65,+1 Lap,
+2021,18,STR,11,65,+1 Lap,
+2021,7,RAI,12,65,+1 Lap,
+2021,5,VET,13,65,+1 Lap,
+2021,63,RUS,14,65,+1 Lap,
+2021,99,GIO,15,65,+1 Lap,
+2021,6,LAT,16,65,+1 Lap,
+2021,14,ALO,17,65,+1 Lap,
+2021,47,MSC,18,64,+2 Laps,
+2021,9,MAZ,19,64,+2 Laps,
+2021,22,TSU,20,6,Electrical,
 2022,1,VER,1,66,Finished,5840.475
 2022,11,PER,2,66,Finished,5853.547
 2022,63,RUS,3,66,Finished,5873.402
