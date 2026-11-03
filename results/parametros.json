@@ -1,0 +1,266 @@
+{
+  "N": {
+    "valor": 66,
+    "unidad": "vueltas",
+    "fuente": "Jolpica-F1, resultados 2022 a 2025"
+  },
+  "t_base": {
+    "valor": 76.58011181319465,
+    "unidad": "s",
+    "fuente": "Mejor vuelta de qualy 2025 de PIA (71.54599999999999 s) más la diferencia media ritmo de carrera menos qualy de los ganadores [2022, 2023, 2024]"
+  },
+  "delta": {
+    "SOFT": {
+      "valor": -0.10864927076888176,
+      "unidad": "s",
+      "error_estandar": 0.0886751593773239
+    },
+    "MEDIUM": {
+      "valor": 0.0,
+      "unidad": "s",
+      "error_estandar": 0.0
+    },
+    "HARD": {
+      "valor": 0.1265218119425935,
+      "unidad": "s",
+      "error_estandar": 0.07496121113803968
+    }
+  },
+  "k": {
+    "SOFT": {
+      "valor": 0.10310835650611683,
+      "unidad": "s/vuelta",
+      "error_estandar": 0.012581298440936207
+    },
+    "MEDIUM": {
+      "valor": 0.12977633742263972,
+      "unidad": "s/vuelta",
+      "error_estandar": 0.008517433554460921
+    },
+    "HARD": {
+      "valor": 0.10496556385312772,
+      "unidad": "s/vuelta",
+      "error_estandar": 0.006484946258647185
+    }
+  },
+  "k2": {
+    "SOFT": {
+      "valor": -0.00032924093667663357,
+      "unidad": "s/vuelta²",
+      "error_estandar": 0.0004894937616309091
+    },
+    "MEDIUM": {
+      "valor": -0.0020625267575780093,
+      "unidad": "s/vuelta²",
+      "error_estandar": 0.0003043704764595366
+    },
+    "HARD": {
+      "valor": -0.0014647144240962362,
+      "unidad": "s/vuelta²",
+      "error_estandar": 0.0001744693943131644
+    }
+  },
+  "f": {
+    "valor": 0.05174187347547665,
+    "unidad": "s/vuelta restante",
+    "error_estandar": 0.0006270424814179414
+  },
+  "sigma": {
+    "valor": 0.5105592448737687,
+    "unidad": "s",
+    "fuente": "Desviación estándar de los residuos de la regresión"
+  },
+  "extra_vuelta_1": {
+    "valor": 2.9964176071651707,
+    "unidad": "s",
+    "fuente": "Vuelta 1 real menos predicción del modelo, ganadores de calibración"
+  },
+  "perdidas_pits": {
+    "valores": [
+      21.302,
+      22.767,
+      24.81,
+      26.576,
+      22.814,
+      21.877,
+      24.564,
+      22.782,
+      21.895,
+      23.224,
+      28.307,
+      22.937,
+      24.263,
+      20.776,
+      23.163,
+      22.959,
+      24.498,
+      23.431,
+      24.079,
+      22.691,
+      21.192,
+      24.72,
+      20.677,
+      21.937,
+      22.746,
+      21.31,
+      21.411,
+      22.006,
+      23.5,
+      23.263,
+      22.74,
+      22.943,
+      20.204,
+      21.515,
+      20.661,
+      23.251,
+      22.93,
+      22.375,
+      23.444,
+      24.294,
+      23.339,
+      23.159,
+      22.476,
+      21.169,
+      20.524,
+      21.14,
+      22.591,
+      23.013,
+      23.165,
+      26.957,
+      25.142,
+      22.523,
+      23.334,
+      24.164,
+      30.238,
+      24.095,
+      23.049,
+      25.547,
+      25.045,
+      24.025,
+      24.404,
+      23.95,
+      23.96,
+      27.326,
+      25.672,
+      22.503,
+      24.314,
+      26.642,
+      25.242,
+      24.923,
+      23.499,
+      22.767,
+      25.175,
+      23.484,
+      21.591,
+      23.252,
+      23.426,
+      22.901,
+      22.422,
+      23.067,
+      24.688,
+      25.699,
+      25.978,
+      23.864,
+      25.338,
+      24.08,
+      22.779,
+      23.238,
+      23.885,
+      25.889,
+      24.511,
+      23.55,
+      21.819,
+      21.332,
+      21.987,
+      20.806,
+      22.443,
+      26.034,
+      23.053,
+      22.48,
+      21.88,
+      25.565,
+      23.379,
+      23.11,
+      23.08,
+      22.985,
+      30.19,
+      22.698,
+      22.427,
+      22.723,
+      22.471,
+      22.797,
+      21.533,
+      21.751,
+      25.111,
+      23.492,
+      22.765,
+      24.829,
+      24.55,
+      24.565,
+      22.305,
+      22.758,
+      21.487,
+      23.376,
+      22.855,
+      24.72,
+      21.365,
+      22.678,
+      26.988,
+      22.042,
+      22.738,
+      21.624,
+      26.924
+    ],
+    "unidad": "s",
+    "mediana": 23.11045922333743,
+    "n": 133,
+    "fuente": "Vuelta de entrada más vuelta de salida menos su predicción en verde"
+  },
+  "p_sc": {
+    "valor": 0.003787878787878788,
+    "ic95": [
+      9.589618948572344e-05,
+      0.02092288017019284
+    ],
+    "unidad": "probabilidad de despliegue por vuelta",
+    "despliegues": 1,
+    "vueltas_en_riesgo": 264,
+    "fuente": "Neutralizaciones SC en Barcelona [2021, 2022, 2023, 2024]"
+  },
+  "duraciones_sc": {
+    "valores": [
+      4
+    ],
+    "unidad": "vueltas"
+  },
+  "factor_vuelta_sc": {
+    "valor": 1.2678712952260258,
+    "n": 70,
+    "unidad": "adimensional",
+    "fuente": "Media de la vuelta bajo SC dividida entre la mediana en verde del mismo piloto"
+  },
+  "factor_parada_sc": {
+    "valor": 0.5,
+    "unidad": "adimensional",
+    "fuente": "Supuesto del equipo. Las paradas bajo SC observadas dan pérdidas por vuelta no interpretables por el reagrupamiento",
+    "observaciones_descartadas_s": [
+      -14.965,
+      -12.145,
+      46.879
+    ]
+  },
+  "vida_max": {
+    "valores": {
+      "HARD": 50,
+      "MEDIUM": 35,
+      "SOFT": 28
+    },
+    "unidad": "vueltas",
+    "fuente": "Máxima edad observada [2022, 2023, 2024]"
+  },
+  "regresion": {
+    "r2": 0.9827213287923398,
+    "vueltas_limpias": 3073,
+    "parametros": 69
+  }
+}
