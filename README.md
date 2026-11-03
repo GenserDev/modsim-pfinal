@@ -43,7 +43,7 @@ Descarga los datos, calibra el modelo, corre los experimentos y genera las gráf
 
 **Datos sin costo.** Las vueltas de 2023 a 2025 vienen de la API pública OpenF1. Las de 2021 y 2022 vienen del espejo público de FastF1 y los resultados, la clasificación y las paradas, de Jolpica-F1. Ninguna fuente pide cuenta. Los CSV procesados ya están en `data/processed`, así que `python main.py --sin-descarga` corre todo sin internet.
 
-**Tiempo de ejecución.** La descarga tarda unos minutos la primera vez y después queda en `data/cache`. Los experimentos completos (30 corridas del GA por condición) tardan alrededor de 15 minutos en una laptop.
+**Tiempo de ejecución.** La descarga tarda unos minutos la primera vez y después queda en `data/cache`. Los experimentos completos (30 corridas del GA por condición) tardan unos 5 minutos en una laptop.
 
 **Carpeta de ejecución.** Los comandos deben correrse desde la raíz del repositorio.
 
