@@ -1,0 +1,35 @@
+circuito: Barcelona
+vueltas_carrera: 66
+anios_calibracion: [2022, 2023, 2024]
+anios_safety_car: [2021, 2022, 2023, 2024]
+anio_validacion: 2025
+piloto_validacion: PIA
+
+calibracion:
+  umbral_vuelta_rapida: 1.07
+  compuestos: [SOFT, MEDIUM, HARD]
+  compuesto_referencia: MEDIUM
+  factor_parada_sc_supuesto: 0.5
+
+simulacion:
+  replicas: 1000
+  semilla: 20260601
+
+ga:
+  semilla: 7
+  replicas_fitness: 200
+  poblacion: 60
+  generaciones: 150
+  paciencia: 20
+  torneo: 3
+  prob_cruce: 0.9
+  prob_mutacion: 0.3
+  elites: 2
+  max_paradas: 3
+  movimiento_parada: 3
+  lambda_riesgo: 0.0
+  corridas_independientes: 30
+
+experimentos:
+  factor_sc: 2.0
+  factor_degradacion: 1.3
