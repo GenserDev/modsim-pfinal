@@ -1,0 +1,42 @@
+{
+  "fuente": "OpenF1 (vueltas) y Jolpica-F1 (tiempo oficial)",
+  "carrera": "GP de España 2025, PIA, 66 vueltas",
+  "vueltas_limpias": 54,
+  "mae_vuelta_limpia_s": 0.5053141764526309,
+  "sesgo_vuelta_limpia_s": -0.26635911653261457,
+  "mae_todas_s": 4.381400598313616,
+  "rmse_vuelta_limpia_s": 0.6259367364810932,
+  "suma_vueltas_real_s": 5577.713,
+  "total_oficial_s": 5577.375,
+  "total_simulado_deterministico_s": 5419.88423998083,
+  "error_total_s": -157.49076001917,
+  "error_total_pct": -2.8237434280314666,
+  "error_bloques": {
+    "stint_1": -0.3209986283603932,
+    "stint_2": -0.46126989450344413,
+    "stint_3": -0.480889829110982,
+    "stint_4": 1.0983773906953416
+  },
+  "error_periodo_sc_s": -141.4947120113962,
+  "diagnostico_sc": {
+    "vueltas_sc_sin_pits": [
+      57,
+      58,
+      59,
+      60
+    ],
+    "factor_observado_lider": 1.6288994664851861,
+    "factor_calibrado_2021": 1.2678712952260258,
+    "error_vueltas_sc_sin_pits_s": -111.93675231959998,
+    "error_vueltas_pits_bajo_sc_s": -31.44643829428361,
+    "nota": "Diagnóstico solamente. No se usa para calibrar porque 2025 es el año de validación"
+  },
+  "simulacion_sc_observado": {
+    "media_s": 5420.786314869297,
+    "de_s": 4.865261717290026,
+    "ic95_inf_s": 5420.484762823883,
+    "ic95_sup_s": 5421.0878669147105,
+    "n": 1000
+  },
+  "percentil_del_real_en_simulacion": 1.0
+}

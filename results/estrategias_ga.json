@@ -1,0 +1,104 @@
+{
+  "nominal_fija": {
+    "texto": "S-H @ 21",
+    "paradas": [
+      21
+    ],
+    "compuestos": [
+      "SOFT",
+      "HARD"
+    ],
+    "umbral_sc": null,
+    "compuesto_sc": "MEDIUM",
+    "stints": [
+      21,
+      45
+    ]
+  },
+  "nominal_reactiva": {
+    "texto": "S-H @ 21 | SC si edad>=14 (H)",
+    "paradas": [
+      21
+    ],
+    "compuestos": [
+      "SOFT",
+      "HARD"
+    ],
+    "umbral_sc": 14,
+    "compuesto_sc": "HARD",
+    "stints": [
+      21,
+      45
+    ]
+  },
+  "p_sc_x2_fija": {
+    "texto": "S-H @ 22",
+    "paradas": [
+      22
+    ],
+    "compuestos": [
+      "SOFT",
+      "HARD"
+    ],
+    "umbral_sc": null,
+    "compuesto_sc": "HARD",
+    "stints": [
+      22,
+      44
+    ]
+  },
+  "p_sc_x2_reactiva": {
+    "texto": "S-H @ 22 | SC si edad>=11 (H)",
+    "paradas": [
+      22
+    ],
+    "compuestos": [
+      "SOFT",
+      "HARD"
+    ],
+    "umbral_sc": 11,
+    "compuesto_sc": "HARD",
+    "stints": [
+      22,
+      44
+    ]
+  },
+  "degradacion_+30%_fija": {
+    "texto": "S-H-H @ 19,43",
+    "paradas": [
+      19,
+      43
+    ],
+    "compuestos": [
+      "SOFT",
+      "HARD",
+      "HARD"
+    ],
+    "umbral_sc": null,
+    "compuesto_sc": "SOFT",
+    "stints": [
+      19,
+      24,
+      23
+    ]
+  },
+  "degradacion_+30%_reactiva": {
+    "texto": "S-H-H @ 19,42 | SC si edad>=9 (H)",
+    "paradas": [
+      19,
+      42
+    ],
+    "compuestos": [
+      "SOFT",
+      "HARD",
+      "HARD"
+    ],
+    "umbral_sc": 9,
+    "compuesto_sc": "HARD",
+    "stints": [
+      19,
+      23,
+      24
+    ]
+  }
+}

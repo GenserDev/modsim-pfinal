@@ -192,10 +192,10 @@ class AlgoritmoGenetico:
         return mejor
 
 
-def fuerza_bruta(evaluador, max_paradas=2):
+def fuerza_bruta(evaluador, max_paradas=2, min_paradas=1):
     N = evaluador.parametros.N
     mejor, mejor_valor, evaluadas = None, np.inf, 0
-    for n in range(1, max_paradas + 1):
+    for n in range(min_paradas, max_paradas + 1):
         for vueltas in itertools.combinations(range(1, N), n):
             for compuestos in itertools.product(COMPUESTOS, repeat=n + 1):
                 estrategia = Estrategia(vueltas, compuestos)

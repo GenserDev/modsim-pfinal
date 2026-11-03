@@ -1,0 +1,12 @@
+{
+  "optimo_fuerza_bruta": "S-H @ 21",
+  "valor_s": 5301.852410439927,
+  "estrategias_evaluadas": 19815,
+  "segundos": 18.405380964279175,
+  "semilla_escenarios": 1000,
+  "ga_aciertos": 30,
+  "ga_corridas": 30,
+  "ga_peor_diferencia_s": 0.0,
+  "optimo_2_paradas": "S-H-H @ 19,42",
+  "valor_2_paradas_s": 5305.34676697346
+}
