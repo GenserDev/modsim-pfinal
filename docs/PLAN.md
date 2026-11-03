@@ -26,40 +26,40 @@ CC3074 Modelización y Simulación, UVG, ciclo 2 de 2026.
 
 ### Parte 1. Problema
 - [ ] Contexto, actores, entradas y salidas
-- [ ] Pregunta de investigación concreta
-- [ ] Métrica principal con unidades y sentido (min)
+- [x] Pregunta de investigación concreta
+- [x] Métrica principal con unidades y sentido (min)
 - [ ] Alcance, restricciones, supuestos y exclusiones
 - [ ] Al menos una fuente verificable del escenario
 
 ### Parte 2. Investigación técnica (GA con restricciones)
-- [ ] Objetivo, representación, parámetros, procedimiento y terminación
+- [x] Objetivo, representación, parámetros, procedimiento y terminación
 - [ ] Al menos 3 fuentes técnicas (1 académica o documentación)
 - [ ] Justificación frente a alternativas
 - [ ] Al menos 2 limitaciones
-- [ ] Qué hace la biblioteca y qué hace el equipo
+- [x] Qué hace la biblioteca y qué hace el equipo
 
 ### Parte 3. Modelo y simulación
-- [ ] Diagrama del sistema
+- [x] Diagrama del sistema
 - [ ] Variables de estado, parámetros, entradas, salidas, restricciones y distribuciones
 - [ ] Reglas, fórmulas o pseudocódigo
 - [ ] Procedencia, valor y unidad de cada parámetro
-- [ ] Simulación funcional y parametrizable (`config.yaml`), con modelo, simulación, técnica y visualización separados
-- [ ] Reproducción desde entorno limpio documentada
+- [x] Simulación funcional y parametrizable (`config.yaml`), con modelo, simulación, técnica y visualización separados
+- [x] Reproducción desde entorno limpio documentada
 
 ### Parte 4. Mejora
-- [ ] Función objetivo y restricciones definidas formalmente
-- [ ] Integración GA y simulación explicada
+- [x] Función objetivo y restricciones definidas formalmente
+- [x] Integración GA y simulación explicada
 - [ ] Hiperparámetros con valor y justificación
-- [ ] Solución candidata verificada por código (`verificar_restricciones()`)
-- [ ] Alternativa base sin mejora conservada
+- [x] Solución candidata verificada por código (`verificar_restricciones()`)
+- [x] Alternativa base sin mejora conservada
 
 ### Parte 5. Experimentación y validación
-- [ ] Al menos 3 condiciones: base, mejorada, sensibilidad
-- [ ] Entradas, parámetros, resultados y métricas registrados por condición
-- [ ] ≥30 repeticiones, semillas registradas, media y dispersión
-- [ ] Propiedad interna probada (pytest: conservación, degradación 0, determinismo, restricciones)
-- [ ] Comparación con datos de referencia (MAE por vuelta y error del total)
-- [ ] Prueba de sensibilidad explicada
+- [x] Al menos 3 condiciones: base, mejorada, sensibilidad
+- [x] Entradas, parámetros, resultados y métricas registrados por condición
+- [x] ≥30 repeticiones, semillas registradas, media y dispersión
+- [x] Propiedad interna probada (pytest: conservación, degradación 0, determinismo, restricciones)
+- [x] Comparación con datos de referencia (MAE por vuelta y error del total)
+- [x] Prueba de sensibilidad explicada
 - [ ] Incertidumbre, limitaciones y riesgo de extrapolación
 
 ### Parte 6. Comparación con la vida real
@@ -77,15 +77,15 @@ CC3074 Modelización y Simulación, UVG, ciclo 2 de 2026.
 - [ ] Conclusión y recomendación concreta
 
 ### Gráficas planeadas
-- [ ] Tiempo por vuelta real vs simulado por compuesto
-- [ ] Boxplot del tiempo total por condición
-- [ ] Convergencia del GA
-- [ ] Mapa de calor de E[T] por vuelta de parada 1 y parada 2
+- [x] Tiempo por vuelta real vs simulado por compuesto
+- [x] Boxplot del tiempo total por condición
+- [x] Convergencia del GA
+- [x] Mapa de calor de E[T] por vuelta de parada 1 y parada 2
 
 ### Entregables
 - [ ] Informe técnico PDF (portada, problema, objetivos, fuentes, técnica, modelo, implementación, diseño experimental, validación, comparación real, resultados, limitaciones, conclusiones, referencias, contribuciones, declaración de uso de IA)
-- [ ] Repositorio con código, README reproducible, `requirements.txt` con versiones fijas, datos o script de descarga
-- [ ] Evidencia experimental en `results/` (tablas, parámetros, semillas, gráficas, métricas)
+- [x] Repositorio con código, README reproducible, `requirements.txt` con versiones fijas, datos o script de descarga
+- [x] Evidencia experimental en `results/` (tablas, parámetros, semillas, gráficas, métricas)
 - [ ] Diapositivas y demostración (máximo 15 minutos)
 - [ ] Registro de contribuciones
 
@@ -103,10 +103,20 @@ CC3074 Modelización y Simulación, UVG, ciclo 2 de 2026.
 - [ ] Problema real con métrica principal y fuentes verificables
 - [ ] Técnica adicional investigada e implementada, con justificación y limitaciones
 - [ ] Modelo con variables, reglas, supuestos, restricciones y unidades
-- [ ] Simulación y mejora se ejecutan desde el README
-- [ ] Base, mejorado y sensibilidad documentados
-- [ ] Resultados, incertidumbre y errores verificados y reproducibles
+- [x] Simulación y mejora se ejecutan desde el README
+- [x] Base, mejorado y sensibilidad documentados
+- [x] Resultados, incertidumbre y errores verificados y reproducibles
 - [ ] Referencia real documentada y datos reales diferenciados de sintéticos
 - [ ] Gráficas, tablas y conclusiones permiten verificar la mejora
 - [ ] Informe, repositorio, evidencias, presentación y contribuciones entregados
 - [ ] Demostración y defensa caben en 15 minutos
+
+## Cambios respecto del plan original
+
+**p_SC con 2021 a 2024 en lugar de 2018 a 2024.** El espejo de FastF1 no tiene 2018, 2019 ni 2020, y OpenF1 empieza en 2023. Hubo 1 SC en 264 vueltas.
+
+**Factor de parada bajo SC como supuesto (0.5) con sensibilidad 0.3 y 0.7.** Las paradas bajo SC observadas dan pérdidas por vuelta no interpretables por el reagrupamiento del pelotón.
+
+**Segunda base "planificada" (S-M-S en 22 y 49).** La tercera parada real fue una reacción al SC de la vuelta 55, así que la base real se castiga en réplicas sin SC.
+
+**Monza no se hizo.** Era opcional y no hay tiempo de calibrar otro circuito con el mismo cuidado.
