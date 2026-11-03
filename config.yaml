@@ -18,7 +18,7 @@ simulacion:
 ga:
   semilla: 7
   replicas_fitness: 200
-  poblacion: 60
+  poblacion: 100
   generaciones: 150
   paciencia: 20
   torneo: 3
@@ -33,3 +33,13 @@ ga:
 experimentos:
   factor_sc: 2.0
   factor_degradacion: 1.3
+
+estrategia_base:
+  paradas: [22, 49, 55]
+  compuestos: [SOFT, MEDIUM, SOFT, SOFT]
+  edades_iniciales: [0, 0, 3, 3]
+
+edad_inicial_ga:
+  SOFT: 3
+  MEDIUM: 0
+  HARD: 0
